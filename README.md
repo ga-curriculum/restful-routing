@@ -12,7 +12,7 @@ This module introduces RESTful routing conventions.
 
 | Lesson | Video Time | Video | Skills |
 | ------ |:----------:|:-----:| ------ |
-| [tktk Microlesson Name](./tktk-microlesson-01/README.md) | -- | -- | tktk skills covered |
+| [Concepts](./concepts/README.md) | -- | -- | tktk skills covered |
 | [tktk Microlesson Name](./tktk-microlesson-02/README.md) | -- | -- | tktk skills covered |
 | [tktk Microlesson Name](./tktk-microlesson-03/README.md) | -- | -- | tktk skills covered |
 | **Total content**                                        | -- | -- |                     |
@@ -22,8 +22,6 @@ This module introduces RESTful routing conventions.
 | Lesson | Video Time | Video | Skills |
 | ------ |:----------:|:-----:| ------ |
 | [tktk Level Up Microlesson Name](./level-up/tktk-microlesson-01.md) | -- | -- | tktk skills covered |
-| [tktk Level Up Microlesson Name](./level-up/tktk-microlesson-02.md) | -- | -- | tktk skills covered |
-| [tktk Level Up Microlesson Name](./level-up/tktk-microlesson-03.md) | -- | -- | tktk skills covered |
 | **Total Level Up content**                                          | -- | -- |                     |
 
 ## References
