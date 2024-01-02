@@ -10,7 +10,7 @@
 - REST is architecture, not a set of standards. Thus we describe systems that use this architecture as RESTful. 
 - State and functionality are divided
 - Every resource is addressable using uniform HTTP commands (mapping HTTP verbs to CRUD actions)
-- Protocal is client/server
+- Protocol is client/server
 
 ## Why use RESTful routing conventions?
 
