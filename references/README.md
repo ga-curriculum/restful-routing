@@ -1,4 +1,4 @@
-# ![[tktk Module Name] - References](./assets/hero.png)
+# ![RESTful Routing - References](./assets/hero.png)
 
 ## Lesson references
 
