@@ -20,6 +20,7 @@ This module introduces RESTful routing conventions.
 
 | Lesson | Video Time | Video | Skills |
 | ------ |:----------:|:-----:| ------ |
+| [Routing for Embedded Resources](./level-up/routing-for-embedded-resources.md) | -- | -- | tktk skills covered |
 | [Routing for Referenced Resources](./level-up/routing-for-referenced-resources.md) | -- | -- | tktk skills covered |
 | **Total Level Up content**                                          | -- | -- |                     |
 
