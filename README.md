@@ -2,12 +2,10 @@
 
 ## About
 
-tktk Write a short but descriptive summary of the content in this module.
+This module introduces RESTful routing conventions. 
 
 ## Prerequisites
 
-- tktk
-- tktk
 - tktk
 
 ## Content
