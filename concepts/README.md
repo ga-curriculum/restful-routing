@@ -1,35 +1,38 @@
 # ![RESTful Routing - Concepts](./assets/hero.png)
 
-**Learning objective:** By the end of this lesson, students will be able to tktk
-
+**Learning objective:** By the end of this lesson, students will understand what REST architecture is, and how it applies to routing. 
 
 ## What is REST
 
-REST stands for REpresentational State Transfer. In order to break down what "Representational State Transfer" is, we'll need to first define what a *resource* is. In REST, all content is considered a resource - data in a database, HTML pages, images, videos, etc. 
+REST is an architectural style that provides standards for the relationship between the client and server ends of an application.
 
-"Representational" refers to the idea that, in response to a request from the client, a server will respond with a *representation* of a resource. Likewise, the client may pass a representation of a resource to the server.
+REST stands for REpresentational State Transfer. In order to break down what "Representational State Transfer" is, we'll need to first define what a *resource* is. From a REST standpoint, all content is considered a resource - data in a database, HTML pages, images, videos, etc. 
 
-Next, "State Transfer" - in REST, you work with two "states" of a resource. The current state, such as when looking up a list of all the current posts on a blog. 
+The "Representational" part of REST refers to the idea that, in response to a request from the client, a server will respond with a *representation* of the requested resource. Likewise, the client might pass a representation of a resource to the server, which the server can use to add data to, update, or delete data from a database.
 
-Or, the desired state, such as when adding a new post to a blog. The client passes a representation of the resource, and 
+If the client makes a request to get all of the posts in a blog, for example, they get back a representation of that resource in its current state. This data could be represented in various ways, although JSON or XML are the most common.
 
+If adding a new post to a blog, the client passes a representation of the new resource to the server - the desired state for the resource - which can then be used to update the state of the database. 
 
-REST is not tied to a specific language or framework - it deals with representations of resources, not the resources themselves! 
-Rather, it's an architectural style that guides the design principles of the internet.
+This is the "State Transfer" part of REST, where the client and server transfer the state of resources between each other using representations of those resources. 
+
+REST is not tied to a specific language or framework - again, it deals with representations of resources, not the resources themselves! Rather, it's an architectural style that guides the design principles of the internet. 
 
 As a result, we describe systems that use this architecture as REST-compliant, or more commonly, as *RESTful*. 
 
-
 ## RESTful routing
 
-Routing is an essential process 
+As you might have guessed, "RESTful routing" is applying REST architecture to routing.
 
-RESTful routing is applying REST architecture to our routing. 
+In REST, there is a clear separation between the client and server. The client sends requests to retrieve or modify resources, and the server sends responses to those requests. 
 
+RESTful routes map the following HTTP verbs to [CRUD](https://developer.mozilla.org/en-US/docs/Glossary/CRUD) counterparts: 
 
-<!-- - State and functionality are divided
-- Every resource is addressable using uniform HTTP commands (mapping HTTP verbs to CRUD actions)
-- Protocol is client/server -->
+POST - CREATE
+GET - READ
+PUT - UPDATE
+DELETE - DELETE
+
 
 ## Why use RESTful routing conventions?
 
