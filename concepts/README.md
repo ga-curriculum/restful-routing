@@ -5,12 +5,24 @@
 
 ## What is REST
 
-REST stands for Representational State Transfer. Whenever you navigate a website or an app and change pages, a state transition takes place. 
-"Representational" refers to the idea that a server will respond with a representation of a resource. 
-As a result, we refer to a specific way of handling <...> as "RESTful"
+REST stands for REpresentational State Transfer. In order to break down what "Representational State Transfer" is, we'll need to first define what a *resource* is. In REST, all content is considered a resource - data in a database, HTML pages, images, videos, etc. 
 
-REST is not tied to a specific language or framework - rather, it's an architectural style that guides the design principles of the internet. 
-Thus, we describe systems that use this architecture as RESTful. 
+"Representational" refers to the idea that, in response to a request from the client, a server will respond with a *representation* of a resource. Likewise, the client may pass a representation of a resource to the server.
+
+Next, "State Transfer" - in REST, you work with two "states" of a resource. The current state, such as when looking up a list of all the current posts on a blog. 
+
+Or, the desired state, such as when adding a new post to a blog. The client passes a representation of the resource, and 
+
+
+REST is not tied to a specific language or framework - it deals with representations of resources, not the resources themselves! 
+Rather, it's an architectural style that guides the design principles of the internet.
+
+As a result, we describe systems that use this architecture as REST-compliant, or more commonly, as *RESTful*. 
+
+
+## RESTful routing
+
+Routing is an essential process 
 
 RESTful routing is applying REST architecture to our routing. 
 
