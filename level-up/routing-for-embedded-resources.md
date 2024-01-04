@@ -2,6 +2,8 @@
 
 ## Routing for Embedded Resources (One:Many Relationships)
 
+Below is a table demonstrating typical RESTful routing that you may experience when working with Embedded Resources.
+
 | HTTP Method<br>(Verb) | Path/Endpoint/URI | CRUD Operation | Typical<br>Controller Action | Has Data<br>Payload? | Typical Purpose | Typical Render/Redirect Action |
 | --------------------- | ----------------- | -------------- | ---------------------------- | -------------------- | --------------- | ------------------------------ |
 | GET    | /blogs/:blogId/comments                 | Read all _comments_ for a _blog_ | indexComments | No  | Render a view that shows all the comments<br>on a blog                                                              | `res.render('blogs/comments/index')` |

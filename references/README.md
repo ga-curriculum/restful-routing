@@ -2,12 +2,5 @@
 
 ## Lesson references
 
-- [tktk descriptive name of link]()
+- [New and Edit Aren't Restful](https://jonsully.net/blog/new-and-edit-arent-restful/)
 - [CRUD](https://developer.mozilla.org/en-US/docs/Glossary/CRUD)
-- [tktk descriptive name of link]()
-
-## Level Up references
-
-- [tktk descriptive name of link]()
-- [tktk descriptive name of link]()
-- [tktk descriptive name of link]()

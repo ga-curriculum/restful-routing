@@ -2,6 +2,8 @@
 
 ## Routing for Referenced Resources (One:Many and Many:Many Relationships)
 
+Below is a table demonstrating typical RESTful routing that you may experience when working with Referenced Resources.
+
 | HTTP Method<br>(Verb) | Path/Endpoint/URI | CRUD Operation | Typical<br>Controller Action | Has Data<br>Payload? | Typical Purpose | Typical Render/Redirect Action |
 | --------------------- | ----------------- | -------------- | ---------------------------- | -------------------- | --------------- | ------------------------------ |
 | POST | /blogs/:blogId/subscribers/:subscriberId | Associate a _blog_ with a _subscriber_  | unpredictable | No  | Handles the user request to associate<br>a subscriber to a blog                                                                          | `res.redirect('/you-choose')` |

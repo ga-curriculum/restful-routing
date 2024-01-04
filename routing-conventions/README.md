@@ -5,8 +5,6 @@
 
 # RESTful/Resourceful Routing Conventions
 
-With corresponding CRUD mappings. These charts may not display well on GitHub. Refer to the screenshots at the end of this document for a potentially better view.
-
 > These charts demonstrate the implementation of a ***blogs*** resource.
 
 | HTTP Method<br>(Verb) | Path/Endpoint/URI  | CRUD Operation | Typical<br>Controller Action | Has Data<br>Payload? | Typical Purpose | Typical Render/Redirect Action |
@@ -26,7 +24,8 @@ With corresponding CRUD mappings. These charts may not display well on GitHub. R
 > The inclusion of new and edit as RESTful is debatable in some circles, but many of the resources you find will include them, and for simplicity, we have grouped them with the other RESTful routes as well. Check out [this](https://jonsully.net/blog/new-and-edit-arent-restful/) writeup for more details.
 
 
-[tktk YOUDO]
+## 🎓 YOU DO
+
 Building a website for a resource of your choosing - what would the above routing chart look like based on this resource? Draw that out by hand. 
 
 
