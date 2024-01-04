@@ -1,44 +1,33 @@
-# ![[tktk Module Name]](./assets/tktk-hero.png)
+# ![RESTful Routing](./assets/tktk-hero.png)
 
 ## About
 
-tktk Write a short but descriptive summary of the content in this module.
+This module introduces REST and RESTful routing conventions. 
 
 ## Prerequisites
 
-- tktk
-- tktk
 - tktk
 
 ## Content
 
 | Lesson | Video Time | Video | Skills |
 | ------ |:----------:|:-----:| ------ |
-| [tktk Microlesson Name](./tktk-microlesson-01/README.md) | -- | -- | tktk skills covered |
-| [tktk Microlesson Name](./tktk-microlesson-02/README.md) | -- | -- | tktk skills covered |
-| [tktk Microlesson Name](./tktk-microlesson-03/README.md) | -- | -- | tktk skills covered |
+| [Concepts](./concepts/README.md) | -- | -- | REST architecture and REST terms explained |
+| [Routing Conventions](./routing-conventions/README.md) | -- | -- | RESTful routing conventions |
 | **Total content**                                        | -- | -- |                     |
 
 ## Level Up content
 
 | Lesson | Video Time | Video | Skills |
 | ------ |:----------:|:-----:| ------ |
-| [tktk Level Up Microlesson Name](./level-up/tktk-microlesson-01.md) | -- | -- | tktk skills covered |
-| [tktk Level Up Microlesson Name](./level-up/tktk-microlesson-02.md) | -- | -- | tktk skills covered |
-| [tktk Level Up Microlesson Name](./level-up/tktk-microlesson-03.md) | -- | -- | tktk skills covered |
+| [Routing for Embedded Resources](./level-up/routing-for-embedded-resources.md) | -- | -- | Conventions for Embedded Resources|
+| [Routing for Referenced Resources](./level-up/routing-for-referenced-resources.md) | -- | -- | Conventions for Referenced Resources |
 | **Total Level Up content**                                          | -- | -- |                     |
 
 ## References
 
 📖 [Reference Materials](./references/README.md)
 
-## Deployed sites
-
-tktk If there is not a deployed site related to this module this section and all of its content should be removed.
-
-🌐 [Live site](#tktk-deployed-app-url)
-
-🐙 [Repository](#tktk-repository-for-deployed-app)
 
 ## Internal resources
 
