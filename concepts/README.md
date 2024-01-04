@@ -39,4 +39,7 @@ In order to facilitate this, RESTful routes map HTTP verbs (get, post, put, and 
 
 ## Why use RESTful routing conventions?
 
-REST is a convention that makes your application predictable - it's a well understood architecture that other developers can easily adapt to and interpret. 
+REST is a convention that makes your application predictable - it's a well understood architecture that other developers can easily adapt to and interpret. REST is also designed around server-client separation, which helps with both scalability and flexibility as the client and server can be changed and expanded separately. 
+
+As mentioned above, REST is also language agnostic - even as language or frameworks change, the communication between client and server stays the same! 
+
