@@ -6,7 +6,7 @@
 
 REST is an architectural style that provides standards for the relationship between the client and server ends of an application.
 
-REST stands for REpresentational State Transfer. In order to break down what "Representational State Transfer" is, we'll need to first define what a *resource* is. From a REST standpoint, all content is considered a resource - data in a database, HTML pages, images, videos, etc. 
+REST stands for REpresentational State Transfer. In order to break down what "Representational State Transfer" is, we'll first need to understand what a *resource* is. From a REST standpoint, all content is considered a resource - data in a database, HTML pages, images, videos, etc. 
 
 > 🧠 URL stands for Uniform Resource Locator - the path at which a resource can be located! 
 

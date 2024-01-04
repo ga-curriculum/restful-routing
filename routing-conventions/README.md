@@ -1,6 +1,6 @@
 # ![RESTful Routing - Routing Conventions](./assets/hero.png)
 
-**Learning objective:** By the end of this lesson, students will be able to tktk
+**Learning objective:** By the end of this lesson, students will be able to create a RESTful routing chart for a resource. 
 
 
 # RESTful/Resourceful Routing Conventions
@@ -26,7 +26,7 @@
 
 ## 🎓 YOU DO
 
-Build a chart for a resource of your choosing, replacing the blogs resource with that new resource. What would the above routing chart look like based on this resource? Draw out the result by hand. 
+Build a chart for a resource of your choosing, replacing the blogs resource with that new resource. What would the above routing chart look like based on this resource? Draw out the table by hand, or in a diagramming application like Whimsical or Lucidchart. 
 
 
 
