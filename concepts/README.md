@@ -26,13 +26,14 @@ As you might have guessed, "RESTful routing" is applying REST architecture to ro
 
 In REST, there is a clear separation between the client and server. The client sends requests to retrieve or modify resources, and the server sends responses to those requests. 
 
-RESTful routes map the following HTTP verbs to [CRUD](https://developer.mozilla.org/en-US/docs/Glossary/CRUD) counterparts: 
+In order to facilitate this, RESTful routes map HTTP verbs (get, post, put, and delete) to [CRUD](https://developer.mozilla.org/en-US/docs/Glossary/CRUD) counterparts: 
 
-POST - CREATE
-GET - READ
-PUT - UPDATE
-DELETE - DELETE
-
+| HTTP Method | CRUD role | Purpose |
+| -- | -- | -- |
+| POST | CREATE | Adding a resource |
+| GET | READ | Viewing a resource |
+| PUT | UPDATE | Changing a resource |
+| DELETE | DELETE | Removing a resource |
 
 ## Why use RESTful routing conventions?
 
