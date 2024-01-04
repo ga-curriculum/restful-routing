@@ -12,11 +12,11 @@ REST stands for REpresentational State Transfer. In order to break down what "Re
 
 The "Representational" part of REST refers to the idea that, in response to a request from the client, a server will respond with a *representation* of the requested resource. Likewise, the client might pass a representation of a resource to the server, which the server can use to add data to, update, or delete data from a database.
 
-If the client makes a request to get all of the posts in a blog, for example, they get back a representation of that resource in its current state. This data could be represented in various ways, although JSON or XML are the most common.
+[tktk Hunter I think a good graphic would really make a difference in breaking up some of the more dense parts of this writeup. Either showing the flow of RESTful routing, or showing a resource and then it's representation as it arrives to the client, etc. ]
 
-If adding a new post to a blog, the client passes a representation of the new resource to the server - the desired state for the resource - which can then be used to update the state of the database. 
+If the client makes a request to get all of the posts in a blog, for example, they get back a representation of that resource in its current state. This data could be represented in various ways, although JSON or XML are the most common. If adding a new post to a blog, the client passes a representation of the new resource to the server - the desired state for the resource - which can then be used to update the state of the database. 
 
-This is the "State Transfer" part of REST, where the client and server transfer the state of resources between each other using representations of those resources. 
+This is the "State Transfer" part of REST, in which the client and server transfer the state of resources between each other using representations of those resources. 
 
 REST is not tied to a specific language or framework - again, it deals with representations of resources, not the resources themselves! Rather, it's an architectural style that guides the design principles of the internet. 
 
