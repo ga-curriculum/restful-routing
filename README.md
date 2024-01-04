@@ -2,7 +2,7 @@
 
 ## About
 
-This module introduces RESTful routing conventions. 
+This module introduces REST and RESTful routing conventions. 
 
 ## Prerequisites
 

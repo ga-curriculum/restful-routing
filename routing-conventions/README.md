@@ -26,7 +26,7 @@
 
 ## 🎓 YOU DO
 
-Building a website for a resource of your choosing - what would the above routing chart look like based on this resource? Draw that out by hand. 
+Build a chart for a resource of your choosing, replacing the blogs resource with that new resource. What would the above routing chart look like based on this resource? Draw out the result by hand. 
 
 
 
