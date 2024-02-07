@@ -4,23 +4,27 @@
 
 ## What is REST
 
-REST is an architectural style that provides standards for the relationship between the client and server ends of an application.
+REST, short for REpresentational State Transfer, is a guiding architectural style for web applications, focusing on the client-server relationship. It's a set of principles that simplifies how web resources are defined and addressed.
 
-REST stands for REpresentational State Transfer. In order to break down what "Representational State Transfer" is, we'll first need to understand what a *resource* is. From a REST standpoint, all content is considered a resource - data in a database, HTML pages, images, videos, etc. 
+### Breaking Down REST
 
-> 🧠 URL stands for Uniform Resource Locator - the path at which a resource can be located! 
+#### Resources and Representations
 
-The "Representational" part of REST refers to the idea that, in response to a request from the client, a server will respond with a *representation* of the requested resource. Likewise, the client might pass a representation of a resource to the server, which the server can use to add data to, update, or delete data from a database.
+At the heart of REST is the concept of a *resource*. In the the context of a web environment, everything - from database data, HTML files, images, to videos - is considered a resource. You've encountered *URLs* which are essentially the addresses where these resources are located.
 
-[tktk Hunter I think a good graphic would really make a difference in breaking up some of the more dense parts of this writeup. Either showing the flow of RESTful routing, or showing a resource and then it's representation as it arrives to the client, etc. ]
+The "Representational" aspect of REST is about how these resources are presented to a client (like a browser). When a client requests a resource, the server responds with a *representation* of it. This representation is not the resource itself but a portrayal of its *current state*, often in formats like JSON or XML.
 
-If the client makes a request to get all of the posts in a blog, for example, they get back a representation of that resource in its current state. This data could be represented in various ways, although JSON or XML are the most common. If adding a new post to a blog, the client passes a representation of the new resource to the server - the desired state for the resource - which can then be used to update the state of the database. 
+#### State Transfer
 
-This is the "State Transfer" part of REST, in which the client and server transfer the state of resources between each other using representations of those resources. 
+The "State Transfer" part of REST revolves around how the client and server communicate or exchange the state of resources. For instance, if you're interacting with a blog, retrieving all posts involves receiving their current state from the server. Conversely, adding a new post means sending its details to the server, which updates the blog's data.
 
-REST is not tied to a specific language or framework - again, it deals with representations of resources, not the resources themselves! Rather, it's an architectural style that guides the design principles of the internet. 
+#### REST's Universality
 
-As a result, we describe systems that use this architecture as REST-compliant, or more commonly, as *RESTful*. 
+What makes REST versatile is its independence from any specific programming language or framework. It's not about the resources themselves but how their states are represented and transferred in a web environment.
+
+Systems adhering to REST principles are known as REST-compliant or *RESTful*. This architectural style underpins much of the internet's design, offering a standardized approach to structuring and handling web resources.
+
+[from Ian: tktk Hunter I think a good graphic would really make a difference in breaking up some of the more dense parts of this writeup. Either showing the flow of RESTful routing, or showing a resource and then it's representation as it arrives to the client, etc.]
 
 ## RESTful routing
 
@@ -41,5 +45,4 @@ In order to facilitate this, RESTful routes map HTTP verbs (get, post, put, and 
 
 REST is a convention that makes your application predictable - it's a well understood architecture that other developers can easily adapt to and interpret. REST is also designed around server-client separation, which helps with both scalability and flexibility as the client and server can be changed and expanded separately. 
 
-As mentioned above, REST is also language agnostic - even as language or frameworks change, the communication between client and server stays the same! 
-
+As mentioned above, REST is also language agnostic - even as languages or frameworks change, the communication between client and server stays the same! 

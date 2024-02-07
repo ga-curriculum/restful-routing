@@ -1,11 +1,13 @@
-# ![RESTful Routing - Level Up - Routing for Embedded Resources](./assets/hero.png)
+# ![RESTful Routing - Routing for Embedded Resources](./assets/hero.png)
 
 ## Routing for Embedded Resources (One:Many Relationships)
 
 Below is a table demonstrating typical RESTful routing that you may experience when working with Embedded Resources.
 
-| HTTP Method<br>(Verb) | Path/Endpoint/URI | CRUD Operation | Typical<br>Controller Action | Has Data<br>Payload? | Typical Purpose | Typical Render/Redirect Action |
-| --------------------- | ----------------- | -------------- | ---------------------------- | -------------------- | --------------- | ------------------------------ |
+[tktk hunter should this be an image of a graph rather than a markdown table? I think maybe. Its so large it looks bad in GH.]
+
+| HTTP Method<br>(Verb) | Path/Endpoint/URI  | CRUD Operation | Controller<br>Action | Has Data<br>Payload? | Purpose | Render/Redirect<br>Action |
+| --------------------- | ------------------ | -------------- | -------------------- | -------------------- | ------- | ------------------------- |
 | GET    | /blogs/:blogId/comments                 | Read all _comments_ for a _blog_ | indexComments | No  | Render a view that shows all the comments<br>on a blog                                                              | `res.render('blogs/comments/index')` |
 | GET    | /blogs/:blogId/comments/:commentId      | Read one _comment_ for a _blog_  | showComment   | No  | Render a view that shows a specific comment<br>on a blog                                                            | `res.render('blogs/comments/show')`  |
 | GET    | /blogs/:blogId/comments/new             | None                             | newComment    | No  | Render a view including a form the user<br>can fill out and submit to add a new<br>comment on a blog                | `res.render('blogs/comments/new')`   |
