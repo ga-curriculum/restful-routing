@@ -10,7 +10,7 @@ Let's break down the RESTful routing chart for a "blogs" resource to help you be
 
 [tktk hunter should this be an image of a graph rather than a markdown table? I think maybe. Its so large it looks bad in GH.]
 
-| HTTP Method<br>(Verb) | Path/Endpoint/URI  | CRUD Operation | Controller<br>Action | Has Data<br>Payload? | Purpose | Render/Redirect<br>Action |
+| HTTP Method<br>(Verb) | Path/Endpoint/URI  | CRUD Operation | Route<br>Name | Has Data<br>Payload? | Purpose | Render/Redirect<br>Action |
 | --------------------- | ------------------ | -------------- | -------------------- | -------------------- | ------- | ------------------------- |
 | GET    | `/blogs`              | Read all _blogs_          | index  | No  | Renders a view that shows all blogs                                                                     | `res.render('blogs/index')`   |
 | GET    | `/blogs/:blogId`      | Read a specific _blog_    | show   | No  | Renders a view that shows a specific blog                                                               | `res.render('blogs/show')`    |
@@ -20,11 +20,27 @@ Let's break down the RESTful routing chart for a "blogs" resource to help you be
 | PUT    | `/blogs/:blogId`      | Update a specific _blog_  | update | Yes | Handles the user submitting a form to<br>update a specific blog                                         | `res.redirect('/you-choose')` |
 | DELETE | `/blogs/:blogId`      | Delete a specific _blog_  | delete | No  | Handles the user request to delete a<br>specific blog                                                   | `res.redirect('/you-choose')` |
 
-> *NOTE: The `edit` controller action may optionally read data for a specific blog to pre-fill data in the form that will ultimately be rendered to the user.
+> *NOTE: The `edit` route may optionally read data for a specific blog to pre-fill data in the form that will ultimately be rendered to the user.
 
 > If a route is marked as having a data payload, it means there is data that will be sent from the client to the server with the request.
 
 > The inclusion of new and edit as RESTful is debatable in some circles, but many of the resources you find will include them, and for simplicity, we have grouped them with the other RESTful routes as well. Check out [this](https://jonsully.net/blog/new-and-edit-arent-restful/) writeup for more details.
+
+**Here is a more accessible code version of the same chart:**
+
+```text
+| HTTP Method (Verb) | Path/Endpoint/URI  | CRUD Operation | Route Name | Has Data Payload? | Purpose | Render/Redirect Action |
+| ------------------ | ------------------ | -------------- | ---------- | ----------------- | ------- | ---------------------- |
+| GET    | `/blogs`              | Read all _blogs_          | index  | No  | Renders a view that shows all blogs                                                                | `res.render('blogs/index')`   |
+| GET    | `/blogs/:blogId`      | Read a specific _blog_    | show   | No  | Renders a view that shows a specific blog                                                          | `res.render('blogs/show')`    |
+| GET    | `/blogs/new`          | None                      | new    | No  | Renders a view including a form the user can fill out and submit to add a new blog                 | `res.render('blogs/new')`     |
+| GET    | `/blogs/:blogId/edit` | See note below*           | edit   | No  | Renders a view including a filled out form the user can edit and submit to update a specific blog  | `res.render('blogs/edit')`    |
+| POST   | `/blogs`              | Create a new _blog_       | create | Yes | Handles the user submitting a form to create a new blog                                            | `res.redirect('/you-choose')` |
+| PUT    | `/blogs/:blogId`      | Update a specific _blog_  | update | Yes | Handles the user submitting a form to update a specific blog                                       | `res.redirect('/you-choose')` |
+| DELETE | `/blogs/:blogId`      | Delete a specific _blog_  | delete | No  | Handles the user request to delete a specific blog                                                 | `res.redirect('/you-choose')` |
+
+*NOTE: The `edit` route may optionally read data for a specific blog to pre-fill data in the form that will ultimately be rendered to the user.
+```
 
 ## Creating RESTful routing charts
 
@@ -39,15 +55,15 @@ Here’s why creating and using a RESTful routing chart is important for you:
 
 Now lets look at a simplified version of the chart above:
 
-| HTTP Method | Path/Endpoint            | CRUD Operation | Controller Action | Description                                          |
-|-------------|--------------------------|----------------|-------------------|------------------------------------------------------|
-| GET         | `/puppies`               | Read           | `index`           | Display a list of all puppies.                       |
-| GET         | `/puppies/new`           | Read           | `new`             | Show a form to add a new puppy.                      |
-| POST        | `/puppies`               | Create         | `create`          | Add a new puppy to the list.                         |
-| GET         | `/puppies/:puppyId`      | Read           | `show`            | Display a specific puppy's details.                  |
-| GET         | `/puppies/:puppyId/edit` | Read           | `edit`            | Show a form to edit an existing puppy's details.     |
-| PUT         | `/puppies/:puppyId`      | Update         | `update`          | Update a specific puppy's details.                   |
-| DELETE      | `/puppies/:puppyId`      | Delete         | `delete`          | Remove a specific puppy from the list.               |
+| HTTP Method | Path/Endpoint            | CRUD Operation | Route Name | Description |
+|-------------|--------------------------|----------------|------------|-------------|
+| GET         | `/puppies`               | Read           | `index`           | Display a list of all puppies.                   |
+| GET         | `/puppies/new`           | Read           | `new`             | Show a form to add a new puppy.                  |
+| POST        | `/puppies`               | Create         | `create`          | Add a new puppy to the list.                     |
+| GET         | `/puppies/:puppyId`      | Read           | `show`            | Display a specific puppy's details.              |
+| GET         | `/puppies/:puppyId/edit` | Read           | `edit`            | Show a form to edit an existing puppy's details. |
+| PUT         | `/puppies/:puppyId`      | Update         | `update`          | Update a specific puppy's details.               |
+| DELETE      | `/puppies/:puppyId`      | Delete         | `delete`          | Remove a specific puppy from the list.           |
 
 
 As a student, you’ll more often be asked to create simplified RESTful routing charts like the one here. It's a more concise way to outline the same detailed information above.
