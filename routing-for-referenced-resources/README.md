@@ -1,11 +1,13 @@
-# ![RESTful Routing - Level Up - Routing for Referenced Resources](./assets/hero.png)
+# ![RESTful Routing - Routing for Referenced Resources](./assets/hero.png)
 
 ## Routing for Referenced Resources (One:Many and Many:Many Relationships)
 
 Below is a table demonstrating typical RESTful routing that you may experience when working with Referenced Resources.
 
-| HTTP Method<br>(Verb) | Path/Endpoint/URI | CRUD Operation | Typical<br>Controller Action | Has Data<br>Payload? | Typical Purpose | Typical Render/Redirect Action |
-| --------------------- | ----------------- | -------------- | ---------------------------- | -------------------- | --------------- | ------------------------------ |
+[tktk hunter should this be an image of a graph rather than a markdown table? I think maybe. Its so large it looks bad in GH.]
+
+| HTTP Method<br>(Verb) | Path/Endpoint/URI | CRUD Operation | Controller<br>Action | Has Data<br>Payload? | Purpose | Render/Redirect<br>Action |
+| --------------------- | ----------------- | -------------- | -------------------- | -------------------- | ------- | ------------------------- |
 | POST | /blogs/:blogId/subscribers/:subscriberId | Associate a _blog_ with a _subscriber_  | unpredictable | No  | Handles the user request to associate<br>a subscriber to a blog                                                                          | `res.redirect('/you-choose')` |
 | POST | /blogs/:blogId/subscribers               | Associate a _blog_ with a _subscriber_  | unpredictable | Yes | Handles the user request to associate<br>a subscriber to a blog.<br>The id of subscriber included in payload<br>instead of the endpoint. | `res.redirect('/you-choose')` |
 

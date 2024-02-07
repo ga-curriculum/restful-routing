@@ -13,7 +13,7 @@ This module introduces REST and RESTful routing conventions.
 | Lesson | Video Time | Video | Skills |
 | ------ |:----------:|:-----:| ------ |
 | [Concepts](./concepts/README.md) | -- | -- | REST architecture and REST terms explained |
-| [Routing Conventions](./routing-conventions/README.md) | -- | -- | RESTful routing conventions |
+| [RESTful Routing Conventions](./restful-routing-conventions/README.md) | -- | -- | RESTful routing conventions |
 | **Total content**                                        | -- | -- |                     |
 
 ## Level Up content
@@ -33,7 +33,7 @@ This module introduces REST and RESTful routing conventions.
 
 ✏️ [Instructor Guide](./internal-resources/instructor-guide.md)
 
-🎥 [Video Hub](./internal-resources/video-guide.md)
+🎥 [Video Hub](./internal-resources/video-hub.md)
 
 🏗️ [Release Notes](./internal-resources/release-notes.md)
 
