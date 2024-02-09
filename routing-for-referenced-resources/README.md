@@ -4,12 +4,7 @@
 
 Below is a table demonstrating typical RESTful routing that you may experience when working with Referenced Resources.
 
-[tktk hunter should this be an image of a graph rather than a markdown table? I think maybe. Its so large it looks bad in GH.]
-
-| HTTP Method<br>(Verb) | Path/Endpoint/URI | CRUD Operation | Route<br>Name | Has Data<br>Payload? | Purpose | Render/Redirect<br>Action |
-| --------------------- | ----------------- | -------------- | ------------- | -------------------- | ------- | ------------------------- |
-| POST | /blogs/:blogId/subscribers/:subscriberId | Associate a _blog_ with a _subscriber_  | unpredictable | No  | Handles the user request to associate<br>a subscriber to a blog                                                                          | `res.redirect('/you-choose')` |
-| POST | /blogs/:blogId/subscribers               | Associate a _blog_ with a _subscriber_  | unpredictable | Yes | Handles the user request to associate<br>a subscriber to a blog.<br>The id of subscriber included in payload<br>instead of the endpoint. | `res.redirect('/you-choose')` |
+![RESTful routing chart for subscribers](./assets/subscribers.png)
 
 > You may want to associate a blog with a subcriber. This would modify the `Subscriber` resource instead of the `Blog` resource. If this is the case, reverse the path above so that it begins with `/subscribers/:subscriberId/blogs`
 

@@ -24,9 +24,9 @@ What makes REST versatile is its independence from any specific programming lang
 
 Systems adhering to REST principles are known as REST-compliant or *RESTful*. This architectural style underpins much of the internet's design, offering a standardized approach to structuring and handling web resources.
 
-[from Ian: tktk Hunter I think a good graphic would really make a difference in breaking up some of the more dense parts of this writeup. Either showing the flow of RESTful routing, or showing a resource and then it's representation as it arrives to the client, etc.]
-
 ## RESTful routing
+
+![RESTful routing chart]()
 
 As you might have guessed, "RESTful routing" is applying REST architecture to routing.
 

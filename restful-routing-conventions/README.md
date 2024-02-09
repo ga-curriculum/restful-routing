@@ -8,17 +8,7 @@ RESTful routing is a set of best practices for organizing the interactions betwe
 
 Let's break down the RESTful routing chart for a "blogs" resource to help you better understand each route and its purpose.
 
-[tktk hunter should this be an image of a graph rather than a markdown table? I think maybe. Its so large it looks bad in GH.]
-
-| HTTP Method<br>(Verb) | Path/Endpoint/URI  | CRUD Operation | Route<br>Name | Has Data<br>Payload? | Purpose | Render/Redirect<br>Action |
-| --------------------- | ------------------ | -------------- | -------------------- | -------------------- | ------- | ------------------------- |
-| GET    | `/blogs`              | Read all _blogs_          | index  | No  | Renders a view that shows all blogs                                                                     | `res.render('blogs/index')`   |
-| GET    | `/blogs/:blogId`      | Read a specific _blog_    | show   | No  | Renders a view that shows a specific blog                                                               | `res.render('blogs/show')`    |
-| GET    | `/blogs/new`          | None                      | new    | No  | Renders a view including a form the user<br>can fill out and submit to add a new blog                   | `res.render('blogs/new')`     |
-| GET    | `/blogs/:blogId/edit` | See note below*           | edit   | No  | Renders a view including a filled out form<br>the user can edit and submit to update a<br>specific blog | `res.render('blogs/edit')`    |
-| POST   | `/blogs`              | Create a new _blog_       | create | Yes | Handles the user submitting a form to<br>create a new blog                                              | `res.redirect('/you-choose')` |
-| PUT    | `/blogs/:blogId`      | Update a specific _blog_  | update | Yes | Handles the user submitting a form to<br>update a specific blog                                         | `res.redirect('/you-choose')` |
-| DELETE | `/blogs/:blogId`      | Delete a specific _blog_  | delete | No  | Handles the user request to delete a<br>specific blog                                                   | `res.redirect('/you-choose')` |
+![RESTful routing chart for blogs](./assets/blogs.png)
 
 > *NOTE: The `edit` route may optionally read data for a specific blog to pre-fill data in the form that will ultimately be rendered to the user.
 
