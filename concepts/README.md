@@ -26,7 +26,7 @@ Systems adhering to REST principles are known as REST-compliant or *RESTful*. Th
 
 ## RESTful routing
 
-![RESTful routing chart]()
+![RESTful routing chart](./assets/restful-routing.png)
 
 As you might have guessed, "RESTful routing" is applying REST architecture to routing.
 
