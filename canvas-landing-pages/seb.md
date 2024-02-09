@@ -1,4 +1,4 @@
-# ![RESTful Routing](../assets/tktk-hero.png)
+# ![RESTful Routing](../assets/hero.png)
 
 ## About
 
