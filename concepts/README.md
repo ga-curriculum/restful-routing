@@ -10,7 +10,7 @@ REST, short for REpresentational State Transfer, is a guiding architectural styl
 
 #### Resources and Representations
 
-At the heart of REST is the concept of a *resource*. In the the context of a web environment, everything - from database data, HTML files, images, to videos - is considered a resource. You've encountered *URLs* which are essentially the addresses where these resources are located.
+At the heart of REST is the concept of a *resource*. In the context of a web environment, everything - from database data, HTML files, images, to videos - is considered a resource. You've encountered *URLs* which are essentially the addresses where these resources are located.
 
 The "Representational" aspect of REST is about how these resources are presented to a client (like a browser). When a client requests a resource, the server responds with a *representation* of it. This representation is not the resource itself but a portrayal of its *current state*, often in formats like JSON or XML.
 
