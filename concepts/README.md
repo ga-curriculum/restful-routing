@@ -1,4 +1,7 @@
-# ![RESTful Routing - Concepts](./assets/hero.png)
+<h1>
+  <span class="headline">RESTful Routing</span>
+  <span class="subhead">Concepts</span>
+</h1>
 
 **Learning objective:** By the end of this lesson, students will understand what REST architecture is, and how it applies to routing. 
 

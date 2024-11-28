@@ -1,4 +1,7 @@
-# ![RESTful Routing - Routing for Referenced Resources](./assets/hero.png)
+<h1>
+  <span class="headline">RESTful Routing</span>
+  <span class="subhead">Routing for Referenced Resources</span>
+</h1>
 
 ## Routing for Referenced Resources (One:Many and Many:Many Relationships)
 

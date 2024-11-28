@@ -1,4 +1,7 @@
-# ![RESTful Routing](../assets/hero.png)
+<h1>
+  <span class="prefix"></span>
+  <span class="headline">RESTful Routing</span>
+</h1>
 
 ## About
 
@@ -6,16 +9,16 @@ In the world of web development, understanding RESTful routing is essential for 
 
 ## Content
 
-| Lesson | Skills |
-| ------ | ------ |
-| [Concepts](../concepts/README.md) | Explaining REST protocol and architecture |
-| [RESTful Routing Conventions](../restful-routing-conventions/README.md) | Implementing RESTful routing conventions |
+| Lesson                                                                  | Skills                                    |
+| ----------------------------------------------------------------------- | ----------------------------------------- |
+| [Concepts](../concepts/README.md)                                       | Explaining REST protocol and architecture |
+| [RESTful Routing Conventions](../restful-routing-conventions/README.md) | Implementing RESTful routing conventions  |
 
 ## Level Up content
 
-| Lesson | Skills |
-| ------ | ------ |
-| [Routing for Embedded Resources](../routing-for-embedded-resources/README.md) | Understanding conventions for Embedded Resources |
+| Lesson                                                                            | Skills                                             |
+| --------------------------------------------------------------------------------- | -------------------------------------------------- |
+| [Routing for Embedded Resources](../routing-for-embedded-resources/README.md)     | Understanding conventions for Embedded Resources   |
 | [Routing for Referenced Resources](../routing-for-referenced-resources/README.md) | Understanding conventions for Referenced Resources |
 
 ## References

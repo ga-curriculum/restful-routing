@@ -1,4 +1,7 @@
-# ![RESTful Routing - References](./assets/hero.png)
+<h1>
+  <span class="headline">RESTful Routing</span>
+  <span class="subhead">References</span>
+</h1>
 
 ## Lesson references
 

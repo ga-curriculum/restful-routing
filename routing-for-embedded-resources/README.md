@@ -1,4 +1,7 @@
-# ![RESTful Routing - Routing for Embedded Resources](./assets/hero.png)
+<h1>
+  <span class="headline">RESTful Routing</span>
+  <span class="subhead">Routing for Embedded Resources</span>
+</h1>
 
 ## Routing for Embedded Resources (One:Many Relationships)
 

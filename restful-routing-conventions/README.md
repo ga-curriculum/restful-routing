@@ -1,4 +1,7 @@
-# ![RESTful Routing - RESTful Routing Conventions](./assets/hero.png)
+<h1>
+  <span class="headline">RESTful Routing</span>
+  <span class="subhead">RESTful Routing Conventions</span>
+</h1>
 
 **Learning objective:** By the end of this lesson, students will be able to create a RESTful routing chart for a resource. 
 
