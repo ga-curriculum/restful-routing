@@ -9,10 +9,11 @@ In the world of web development, understanding RESTful routing is essential for 
 
 ## Content
 
-| Lesson                                                                  | Skills                                    |
-| ----------------------------------------------------------------------- | ----------------------------------------- |
-| [Concepts](../concepts/README.md)                                       | Explaining REST protocol and architecture |
-| [RESTful Routing Conventions](../restful-routing-conventions/README.md) | Implementing RESTful routing conventions  |
+| Lesson                                                                                           | Skills                                                                       |
+| ------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------- |
+| [Concepts](../concepts/README.md)                                                                | Explaining REST protocol and architecture                                    |
+| [RESTful Routing Conventions](../restful-routing-conventions/README.md)                          | Implementing RESTful routing conventions                                     |
+| [Activity: Create a RESTful Routing Chart](../activity-create-a-restful-routing-chart/README.md) | Apply what you’ve learned about RESTful routing by designing a routing chart |
 
 ## Level Up content
 

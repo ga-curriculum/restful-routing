@@ -3,7 +3,7 @@
   <span class="subhead">RESTful Routing Conventions</span>
 </h1>
 
-**Learning objective:** By the end of this lesson, students will be able to create a RESTful routing chart for a resource. 
+**Learning objective:** By the end of this lesson, students will be able to create a RESTful routing chart for a resource.
 
 ## RESTful Routing Conventions
 
@@ -13,7 +13,7 @@ Let's break down the RESTful routing chart for a "blogs" resource to help you be
 
 ![RESTful routing chart for blogs](./assets/blogs.png)
 
-> *NOTE: The `edit` route may optionally read data for a specific blog to pre-fill data in the form that will ultimately be rendered to the user.
+> \*NOTE: The `edit` route may optionally read data for a specific blog to pre-fill data in the form that will ultimately be rendered to the user.
 
 > If a route is marked as having a data payload, it means there is data that will be sent from the client to the server with the request.
 
@@ -37,7 +37,7 @@ Let's break down the RESTful routing chart for a "blogs" resource to help you be
 
 ## Creating RESTful routing charts
 
-As a new web developer, understanding RESTful routing is key to building organized web applications. 
+As a new web developer, understanding RESTful routing is key to building organized web applications.
 
 Here’s why creating and using a RESTful routing chart is important for you:
 
@@ -48,24 +48,14 @@ Here’s why creating and using a RESTful routing chart is important for you:
 
 Now lets look at a simplified version of the chart above:
 
-| HTTP Method | Path/Endpoint            | CRUD Operation | Route Name | Description |
-|-------------|--------------------------|----------------|------------|-------------|
-| GET         | `/puppies`               | Read           | `index`           | Display a list of all puppies.                   |
-| GET         | `/puppies/new`           | Read           | `new`             | Show a form to add a new puppy.                  |
-| POST        | `/puppies`               | Create         | `create`          | Add a new puppy to the list.                     |
-| GET         | `/puppies/:puppyId`      | Read           | `show`            | Display a specific puppy's details.              |
-| GET         | `/puppies/:puppyId/edit` | Read           | `edit`            | Show a form to edit an existing puppy's details. |
-| PUT         | `/puppies/:puppyId`      | Update         | `update`          | Update a specific puppy's details.               |
-| DELETE      | `/puppies/:puppyId`      | Delete         | `delete`          | Remove a specific puppy from the list.           |
-
+| HTTP Method | Path/Endpoint            | CRUD Operation | Route Name | Description                                      |
+| ----------- | ------------------------ | -------------- | ---------- | ------------------------------------------------ |
+| GET         | `/puppies`               | Read           | `index`    | Display a list of all puppies.                   |
+| GET         | `/puppies/new`           | Read           | `new`      | Show a form to add a new puppy.                  |
+| POST        | `/puppies`               | Create         | `create`   | Add a new puppy to the list.                     |
+| GET         | `/puppies/:puppyId`      | Read           | `show`     | Display a specific puppy's details.              |
+| GET         | `/puppies/:puppyId/edit` | Read           | `edit`     | Show a form to edit an existing puppy's details. |
+| PUT         | `/puppies/:puppyId`      | Update         | `update`   | Update a specific puppy's details.               |
+| DELETE      | `/puppies/:puppyId`      | Delete         | `delete`   | Remove a specific puppy from the list.           |
 
 As a student, you’ll more often be asked to create simplified RESTful routing charts like the one here. It's a more concise way to outline the same detailed information above.
-
-
-## 🎓 YOU DO
-
-Let's apply what you have just learned to a new resource like "songs" or "recipes". 
-
-- Create a RESTful routing chart (based on the simplified version above) for your chosen resource. Think about the operations you would need to perform on your resource (Create Read Update Delete) and how routes enable those operations.
-
-For maximum learning benefits, we recommend you draw out the table by hand. You may also use a diagramming application like Whimsical or Lucidchart. 

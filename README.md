@@ -9,12 +9,15 @@ In the world of web development, understanding RESTful routing is essential for 
 
 ## Content
 
-| Lesson                                                                           | Skills                                             |
-| -------------------------------------------------------------------------------- | -------------------------------------------------- |
-| [Concepts](./concepts/README.md)                                                 | Explaining REST protocol and architecture          |
-| [RESTful Routing Conventions](./restful-routing-conventions/README.md)           | Implementing RESTful routing conventions           |
-| [Routing for Embedded Resources](./routing-for-embedded-resources/README.md)     | Understanding conventions for Embedded Resources   |
-| [Routing for Referenced Resources](./routing-for-referenced-resources/README.md) | Understanding conventions for Referenced Resources |
+| Lesson                                                                                          | Skills                                                                                                                         |
+| ----------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
+| [Concepts](./concepts/README.md)                                                                | Explaining REST protocol and architecture                                                                                      |
+| [RESTful HTTP Methods](./restful-http-methods/README.md)                                        | Describe the CRUD functionalities associated with common HTTP request methods and explain how they are used in API development |
+| [RESTful Routing Conventions](./restful-routing-conventions/README.md)                          | Understanding the purpose and function of each route in a RESTful architecture                                                 |
+| [RESTful Routing Conventions for APIs](./restful-routing-conventions-for-apis/README.md)        | Understanding the purpose and function of each route in a RESTful architecture - in an API context                             |
+| [Activity: Create a RESTful Routing Chart](./activity-create-a-restful-routing-chart/README.md) | Apply what you’ve learned about RESTful routing by designing a routing chart                                                   |
+| [Routing for Embedded Resources](./routing-for-embedded-resources/README.md)                    | Understanding conventions for Embedded Resources                                                                               |
+| [Routing for Referenced Resources](./routing-for-referenced-resources/README.md)                | Understanding conventions for Referenced Resources                                                                             |
 
 ## References
 
@@ -24,11 +27,12 @@ In the world of web development, understanding RESTful routing is essential for 
 
 ### Prerequisites
 
-- HTTP Request REsponse Cycle
+- HTTP Request Response Cycle
 
 ### Course landing pages
 
 - [SEB - Software Engineering Bootcamp](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/restful-routing/canvas-landing-pages/seb.html)
+- [APD - Advanced Python for Developers](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/restful-routing/canvas-landing-pages/apd.html)
 - [Fallback](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/restful-routing/canvas-landing-pages/fallback.html)
 
 ### Resources
