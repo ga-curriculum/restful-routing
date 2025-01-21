@@ -7,7 +7,7 @@ Let's apply what you have just learned to a new resource!
 
 <div class="activity solo-exercise">
   <h2 class="title">Create a RESTful Routing Chart</h2>
-  <span class="minutes">15 min</span>
+  <span class="minutes">10 min</span>
 </div>
 
 ### Objective
