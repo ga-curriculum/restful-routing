@@ -18,7 +18,10 @@ In the world of web development, understanding RESTful routing is essential for 
 
 ## Level Up content
 
-| [Activity: Create a RESTful Routing Chart](../activity-create-a-restful-routing-chart/README.md) | 10 min | Apply what you’ve learned about RESTful routing by designing a routing chart |
+| Lesson                                                                                           | Est. Delivery Time | Skills                                                                       |
+| ------------------------------------------------------------------------------------------------ | ------------------ | ---------------------------------------------------------------------------- |
+| [Activity: Create a RESTful Routing Chart](../activity-create-a-restful-routing-chart/README.md) | 10 min             | Apply what you’ve learned about RESTful routing by designing a routing chart |
+| **Total content**                                                                                | 10 min             |
 
 ## References
 
