@@ -30,3 +30,23 @@ routingForReferencedResources = new Template.Microlesson {
   videoUrl = ""
 }
 
+restfulHttpMethods = new Template.Microlesson {
+  friendlyName = "RESTful HTTP Methods"
+  dirName = "restful-http-methods"
+  type = "Content"
+  videoUrl = ""
+}
+
+restfulRoutingConventionsForApis = new Template.Microlesson {
+  friendlyName = "RESTful Routing Conventions for APIs"
+  dirName = "restful-routing-conventions-for-apis"
+  type = "Content"
+  videoUrl = ""
+}
+
+activityCreateRestfulRoutingChart = new Template.Microlesson {
+  friendlyName = "Activity: Create a RESTful Routing Chart"
+  dirName = "activity-create-a-restful-routing-chart"
+  type = "Content"
+  videoUrl = ""
+}

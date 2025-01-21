@@ -22,7 +22,10 @@ courses {
     microlessons {
       // add microlessons here, in the order they should be delivered
       mls.concepts
+      mls.restfulHttpMethods
       mls.restfulRoutingConventions
+      mls.restfulRoutingConventionsForApis
+      mls.activityCreateRestfulRoutingChart
       mls.routingForEmbeddedResources
       mls.routingForReferencedResources
     }
@@ -32,10 +35,22 @@ courses {
     microlessons {
       mls.concepts
       mls.restfulRoutingConventions
+      mls.activityCreateRestfulRoutingChart
       (mls.routingForEmbeddedResources) {
         type = "Level Up content"
       }
       (mls.routingForReferencedResources) {
+        type = "Level Up content"
+      }
+    }
+  }
+  new {
+    name = "apd"
+    microlessons {
+      mls.concepts
+      mls.restfulHttpMethods
+      mls.restfulRoutingConventionsForApis
+      (mls.activityCreateRestfulRoutingChart) {
         type = "Level Up content"
       }
     }
