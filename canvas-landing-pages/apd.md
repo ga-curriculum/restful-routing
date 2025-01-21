@@ -14,7 +14,7 @@ In the world of web development, understanding RESTful routing is essential for 
 | [Concepts](../concepts/README.md)                                                         | 10 min             | Explaining REST protocol and architecture                                                                                      |
 | [RESTful HTTP Methods](../restful-http-methods/README.md)                                 | 15 min             | Describe the CRUD functionalities associated with common HTTP request methods and explain how they are used in API development |
 | [RESTful Routing Conventions for APIs](../restful-routing-conventions-for-apis/README.md) | 15 min             | Implementing RESTful routing conventions in an API context                                                                     |
-| **Total content**                                                                         | 40 min min         |                                                                                                                                |
+| **Total content**                                                                         | 40 min             |                                                                                                                                |
 
 ## Level Up content
 
